@@ -11,8 +11,10 @@ export default {
                 <h1>Content goes here</h1>
             </div>
         </div>
+        <!-- /.top_main -->
+
         <div class="bottom_main">
-            <div class="container d-flex justify-content-center p-3">
+            <div class="container p-3">
                 <div class="row">
                     <div class="icon_nav">
                         <div>
@@ -22,6 +24,8 @@ export default {
                             <p>DIGITAL COMICS</p>
                         </div>
                     </div>
+                    <!-- /.icon_nav DIGITAL COMICS -->
+
                     <div class="icon_nav">
                         <div>
                             <img src="../assets/img/merchandise.png" alt="Digital Comics">
@@ -30,33 +34,42 @@ export default {
                             <p>DC MERCHANDISE</p>
                         </div>
                     </div>
+                    <!-- /.icon_nav DC MERCHANDISE -->
+
                     <div class="icon_nav">
                         <div>
                             <img src="../assets/img/subscriptions.png" alt="Digital Comics">
                         </div>
                         <div>
-                            <p>DIGITAL COMICS</p>
+                            <p>SUBSCRIPTION</p>
                         </div>
                     </div>
+                    <!-- /.icon_nav SUBSCRIPTION -->
+
                     <div class="icon_nav">
                         <div>
                             <img src="../assets/img/shop-locator.png" alt="Digital Comics">
                         </div>
                         <div>
-                            <p>DIGITAL COMICS</p>
+                            <p>COMIC SHOP LOCATOR</p>
                         </div>
                     </div>
+                    <!-- /.icon_nav COMIC SHOP LOCATOR -->
+
                     <div class="icon_nav">
                         <div>
                             <img width="100" src="../assets/img/visa.svg" alt="Digital Comics">
                         </div>
                         <div>
-                            <p>DIGITAL COMICS</p>
+                            <p>DC POWER VISA</p>
                         </div>
                     </div>
+                    <!-- /.icon_nav DC POWER VISA -->
+
                 </div>
             </div>
         </div>
+        <!-- /.bottom_main -->
 
     </main>
 </template>
@@ -78,6 +91,7 @@ h1 {
         width: calc((100% / 5) - 2rem);
         display: flex;
         align-items: center;
+        justify-content: center;
         gap: 0.5rem;
         margin: 1rem;
         cursor: pointer;
