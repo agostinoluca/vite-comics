@@ -50,7 +50,6 @@ a {
 .container {
   width: 80%;
   margin: auto;
-  max-width: 1152px;
 }
 
 .row {
@@ -64,6 +63,10 @@ a {
 /* #region Utility */
 .d-flex {
   display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
 }
 
 .justify-content-between {

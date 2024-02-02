@@ -12,7 +12,7 @@ export default {
             </div>
         </div>
         <div class="bottom_main">
-            <div class="container p-3">
+            <div class="container d-flex justify-content-center p-3">
                 <div class="row">
                     <div class="icon_nav">
                         <div>
@@ -48,7 +48,7 @@ export default {
                     </div>
                     <div class="icon_nav">
                         <div>
-                            <img src="../assets/img/visa.svg" alt="Digital Comics">
+                            <img width="100" src="../assets/img/visa.svg" alt="Digital Comics">
                         </div>
                         <div>
                             <p>DIGITAL COMICS</p>
@@ -88,7 +88,7 @@ h1 {
     }
 
     & img {
-        max-height: 3rem;
+        max-height: 4rem;
     }
 }
 </style>
