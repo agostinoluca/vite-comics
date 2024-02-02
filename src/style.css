@@ -1,3 +1,16 @@
+/* #region Debug */
+.debug .container {
+  background-color: rgba(255, 0, 0, 0.301);
+}
+
+.debug .row {
+  border: 2px dotted black;
+}
+
+/* #endregion Debug */
+
+
+/* #region common */
 * {
   padding: 0;
   margin: 0;
@@ -14,3 +27,58 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+
+img {
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* #endregion common */
+
+/* #region Layout */
+.container {
+  width: 80%;
+  margin: auto;
+  max-width: 1152px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* #endregion Layout */
+
+/* #region Utility */
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.p-2 {
+  padding: 1rem;
+}
+
+.g-1 {
+  gap: 0.5rem;
+}
+
+.g-2 {
+  gap: 1rem
+}
+
+/* #endregion Utility */
