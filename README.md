@@ -24,3 +24,13 @@ https://fonts.google.com/specimen/Open+Sans.
 Continuate a lavorare nella stessa repo di ieri e create un nuovo componente che rappresenterà le card dei fumetti.
 Utilizzate i dati presenti nel file json che trovate in allegato e passateli al componente Card tramite props.
 Una volta inseriti tutti i contenuti dinamicamente, completate il vostro layout e rifinite i dettagli con css.
+
+## Appunti per futuri tutoraggi
+
+# HEADER effetti :hover su nav
+
+Vorrei chiarire meglio l'applicazione del border-bottom su on hover dei vari collegamenti della nav.
+
+# MAIN Dimensionamento e impostazione bottom_main
+
+Ho necessità di un ripasso sul posizionamento e dimensionamento delle img vicine al testo.

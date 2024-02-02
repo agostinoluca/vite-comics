@@ -38,6 +38,13 @@ export default {
 a {
     color: var(--dc-dark);
     font-size: 0.75rem;
-    font-weight: 600;
+    font-weight: 700;
+    position: relative;
+
+    &:hover {
+        color: var(--dc-primary);
+        border-bottom: 3px solid var(--dc-primary);
+        padding-bottom: 3.5rem;
+    }
 }
 </style>
