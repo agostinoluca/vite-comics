@@ -7,8 +7,12 @@
   border: 2px dotted red;
 }
 
-.debug [class^='col'] {
+.debug [class^='col-'] {
   border: 1px dashed gray;
+}
+
+.debug .top_footer {
+  height: 300px;
 }
 
 /* #endregion Debug */
@@ -26,6 +30,7 @@
   --dc-secondary: #303030;
   --dc-dark: #1c1c1c;
   --dc-light: #ffff;
+  --dc-lightgray: #717d7d;
 }
 
 body {
@@ -56,6 +61,10 @@ a {
   display: flex;
   flex-wrap: wrap;
   margin: 0 -1rem;
+}
+
+.col-6 {
+  width: calc((100% / 12) * 6);
 }
 
 /* #endregion Layout */
@@ -96,6 +105,10 @@ a {
 
 .g-2 {
   gap: 1rem
+}
+
+.g-4 {
+  gap: 2rem
 }
 
 /* #endregion Utility */
