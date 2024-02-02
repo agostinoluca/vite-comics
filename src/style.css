@@ -91,6 +91,10 @@ a {
 }
 
 
+.p-1 {
+  padding: 0.5rem;
+}
+
 .p-2 {
   padding: 1rem;
 }

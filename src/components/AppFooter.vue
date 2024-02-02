@@ -57,7 +57,21 @@ export default {
 
             </div>
         </div>
-        <div class="bottom_footer"></div>
+        <div class="bottom_footer">
+            <div class="container p-3">
+                <div class="row justify-content-between align-items-center">
+                    <button>SIGN-UP NOW!</button>
+                    <div class="d-flex align-items-center g-2">
+                        <span class="get_follower">FOLLOW US</span>
+                        <img src="../assets/img/footer-facebook.png" alt="Facebook Icon">
+                        <img src="../assets/img/footer-twitter.png" alt="Facebook Icon">
+                        <img src="../assets/img/footer-youtube.png" alt="Facebook Icon">
+                        <img src="../assets/img/footer-pinterest.png" alt="Facebook Icon">
+                        <img src="../assets/img/footer-periscope.png" alt="Facebook Icon">
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 </template>
 
@@ -81,6 +95,10 @@ export default {
         margin: 0.75rem 0;
     }
 
+    & li:hover {
+        filter: brightness(100);
+    }
+
     & a {
         color: var(--dc-lightgray);
         font-size: 0.75rem;
@@ -90,5 +108,34 @@ export default {
 
 .bottom_footer {
     background-color: var(--dc-secondary);
+
+    & button {
+        padding: 0.5rem;
+        background-color: transparent;
+        color: var(--dc-light);
+        font-weight: 600;
+        font-family: inherit;
+        border: 3px solid var(--dc-primary);
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    & .get_follower {
+        color: var(--dc-primary);
+        font-weight: 700;
+        letter-spacing: -1px;
+    }
+
+    & img {
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.2);
+            filter: brightness(100);
+        }
+    }
 }
 </style>
