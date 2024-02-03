@@ -34,3 +34,8 @@ Vorrei chiarire meglio l'applicazione del border-bottom su on hover dei vari col
 # MAIN Dimensionamento e impostazione bottom_main
 
 Ho necessità di un ripasso sul posizionamento e dimensionamento delle img vicine al testo.
+
+# Percorsi immagine
+
+Ho necessità di aggiungere i puntini per arrivare al percorso img. Cosa sbaglio?
+Dove mettere le img? In src/assets/img o /public?

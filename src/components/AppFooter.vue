@@ -86,7 +86,7 @@ export default {
     & .logo_bg {
         background-image: url(../assets/img/logo-bg.png);
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: cover;
         background-position: center;
     }
 

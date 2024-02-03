@@ -43,8 +43,8 @@ a {
 
     &:hover {
         color: var(--dc-primary);
-        border-bottom: 3px solid var(--dc-primary);
-        padding-bottom: 3.5rem;
+        border-bottom: 5px solid var(--dc-primary);
+        padding-bottom: 3.4rem;
     }
 }
 </style>
