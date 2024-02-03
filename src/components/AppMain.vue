@@ -7,6 +7,9 @@ export default {
 <template>
     <main>
         <div class="top_main">
+            <div class="jumbotron">
+
+            </div>
             <div class="container p-3">
                 <h1>Content goes here</h1>
             </div>
@@ -81,6 +84,12 @@ h1 {
 
 .top_main {
     background-color: var(--dc-dark);
+
+    & .jumbotron {
+        background-image: url(../assets/img/jumbotron.jpg);
+        background-size: cover;
+        height: 18rem;
+    }
 }
 
 .bottom_main {
