@@ -90,7 +90,7 @@ export default {
 
             </div>
             <div class="container p-3">
-                <h1>Content goes here</h1>
+                <h3>CURRENT SERIES</h3>
                 <div class="row">
                     <div class="col-2" v-for="comic in comics">
                         <div class="card p-1">
@@ -111,7 +111,7 @@ export default {
                             <img src="../assets/img/digital-comics.png" alt="Digital Comics">
                         </div>
                         <div>
-                            <p>DIGITAL COMICS</p>
+                            <span>DIGITAL COMICS</span>
                         </div>
                     </div>
                     <!-- /.icon_nav DIGITAL COMICS -->
@@ -121,7 +121,7 @@ export default {
                             <img src="../assets/img/merchandise.png" alt="Digital Comics">
                         </div>
                         <div>
-                            <p>DC MERCHANDISE</p>
+                            <span>DC MERCHANDISE</span>
                         </div>
                     </div>
                     <!-- /.icon_nav DC MERCHANDISE -->
@@ -131,7 +131,7 @@ export default {
                             <img src="../assets/img/subscriptions.png" alt="Digital Comics">
                         </div>
                         <div>
-                            <p>SUBSCRIPTION</p>
+                            <span>SUBSCRIPTION</span>
                         </div>
                     </div>
                     <!-- /.icon_nav SUBSCRIPTION -->
@@ -141,7 +141,7 @@ export default {
                             <img src="../assets/img/shop-locator.png" alt="Digital Comics">
                         </div>
                         <div>
-                            <p>COMIC SHOP LOCATOR</p>
+                            <span>COMIC SHOP LOCATOR</span>
                         </div>
                     </div>
                     <!-- /.icon_nav COMIC SHOP LOCATOR -->
@@ -151,7 +151,7 @@ export default {
                             <img width="100" src="../assets/img/visa.svg" alt="Digital Comics">
                         </div>
                         <div>
-                            <p>DC POWER VISA</p>
+                            <span>DC POWER VISA</span>
                         </div>
                     </div>
                     <!-- /.icon_nav DC POWER VISA -->
@@ -165,10 +165,6 @@ export default {
 </template>
 
 <style scoped>
-h1 {
-    color: var(--dc-light);
-}
-
 .top_main {
     background-color: var(--dc-dark);
 
@@ -176,6 +172,13 @@ h1 {
         background-image: url(../assets/img/jumbotron.jpg);
         background-size: cover;
         height: 18rem;
+    }
+
+    & h3 {
+        display: inline-flex;
+        color: var(--dc-light);
+        background-color: var(--dc-primary);
+        padding: 1rem;
     }
 
     & .card {
@@ -203,7 +206,7 @@ h1 {
         cursor: pointer;
     }
 
-    & p {
+    & span {
         font-size: 0.75rem;
     }
 

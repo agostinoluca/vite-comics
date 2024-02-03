@@ -71,11 +71,21 @@ export default {
                     <button>SIGN-UP NOW!</button>
                     <div class="d-flex align-items-center g-2">
                         <span class="get_follower">FOLLOW US</span>
-                        <img src="../assets/img/footer-facebook.png" alt="Facebook Icon">
-                        <img src="../assets/img/footer-twitter.png" alt="Facebook Icon">
-                        <img src="../assets/img/footer-youtube.png" alt="Facebook Icon">
-                        <img src="../assets/img/footer-pinterest.png" alt="Facebook Icon">
-                        <img src="../assets/img/footer-periscope.png" alt="Facebook Icon">
+                        <a href="#">
+                            <img src="../assets/img/footer-facebook.png" alt="Facebook Icon">
+                        </a>
+                        <a href="#">
+                            <img src="../assets/img/footer-twitter.png" alt="Facebook Icon">
+                        </a>
+                        <a href="#">
+                            <img src="../assets/img/footer-youtube.png" alt="Facebook Icon">
+                        </a>
+                        <a href="#">
+                            <img src="../assets/img/footer-pinterest.png" alt="Facebook Icon">
+                        </a>
+                        <a href="#">
+                            <img src="../assets/img/footer-periscope.png" alt="Facebook Icon">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -138,13 +148,9 @@ export default {
         letter-spacing: -1px;
     }
 
-    & img {
-        cursor: pointer;
-
-        &:hover {
-            transform: scale(1.2);
-            filter: brightness(100);
-        }
+    & img:hover {
+        transform: scale(1.2);
+        filter: brightness(100);
     }
 }
 </style>
