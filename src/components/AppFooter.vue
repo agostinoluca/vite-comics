@@ -21,12 +21,14 @@ export default {
                                 <li><a href="#">Videos</a></li>
                                 <li><a href="#">News</a></li>
                             </ul>
+                            <!-- /ul dc comics -->
 
                             <h4>SHOP</h4>
                             <ul>
                                 <li><a href="#">Shop DC</a></li>
                                 <li><a href="#">Shop DC Collectibles</a></li>
                             </ul>
+                            <!-- /ul shop -->
                         </div>
 
                         <ul>
@@ -43,6 +45,8 @@ export default {
                             <li><a href="#">Shop Help</a></li>
                             <li><a href="#">Contact Us</a></li>
                         </ul>
+                        <!-- /ul dc -->
+
                         <ul>
                             <h4>SITES</h4>
                             <li><a href="#">DC</a></li>
@@ -51,12 +55,16 @@ export default {
                             <li><a href="#">DC Universe</a></li>
                             <li><a href="#">DC Power Visa</a></li>
                         </ul>
+                        <!-- /ul sites -->
+
                     </div>
                     <div class="logo_bg col-6"></div>
                 </div>
 
             </div>
         </div>
+        <!-- /.top_footer -->
+
         <div class="bottom_footer">
             <div class="container p-3">
                 <div class="row justify-content-between align-items-center">
@@ -72,6 +80,7 @@ export default {
                 </div>
             </div>
         </div>
+        <!-- /.bottom_footer -->
     </footer>
 </template>
 
