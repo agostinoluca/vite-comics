@@ -1,6 +1,10 @@
 <script>
+import ComicsCard from "./ComicsCard.vue";
 export default {
     name: 'AppMain',
+    components: {
+        ComicsCard
+    },
     data() {
         return {
             comics: [
@@ -93,10 +97,7 @@ export default {
                 <h3>CURRENT SERIES</h3>
                 <div class="row">
                     <div class="col-2" v-for="comic in comics">
-                        <div class="card p-1">
-                            <img :src="comic.thumb" alt="">
-                            <h5>{{ comic.series }}</h5>
-                        </div>
+                        <ComicsCard :comic="comic"></ComicsCard>
                     </div>
                 </div>
             </div>
@@ -179,17 +180,6 @@ export default {
         color: var(--dc-light);
         background-color: var(--dc-primary);
         padding: 1rem;
-    }
-
-    & .card {
-        color: var(--dc-light);
-    }
-
-    & .card img {
-        width: 100%;
-        aspect-ratio: 1;
-        object-fit: cover;
-        object-position: top;
     }
 }
 
