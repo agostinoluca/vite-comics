@@ -80,10 +80,37 @@ export default {
                     "series": "Catwoman",
                     "type": "graphic novel"
                 }
+            ],
+            icons: [
+                {
+                    img: "/digital-comics.png",
+                    alt: "Digital Comics",
+                    title: "DIGITAL COMICS"
+                },
+                {
+                    img: "/merchandise.png",
+                    alt: "DC Merchandise",
+                    title: "DC MERCHANDISE"
+                },
+                {
+                    img: "/subscriptions.png",
+                    alt: "Subscription",
+                    title: "SUBSCRIPTION"
+                },
+                {
+                    img: "/shop-locator.png",
+                    alt: "Comic Shop Locator",
+                    title: "COMIC SHOP LOCATOR"
+                },
+                {
+                    img: "/visa.svg",
+                    alt: "DC Power Visa",
+                    title: "DC POWER VISA"
+                }
             ]
         }
 
-    }
+    },
 }
 </script>
 
@@ -107,56 +134,14 @@ export default {
         <div class="bottom_main">
             <div class="container p-3">
                 <div class="row">
-                    <div class="icon_nav">
+                    <div class="icon_nav" v-for="icon in icons">
                         <div>
-                            <img src="../assets/img/digital-comics.png" alt="Digital Comics">
+                            <img height="50" :src="icon.img" :alt="icon.alt">
                         </div>
                         <div>
-                            <span>DIGITAL COMICS</span>
-                        </div>
-                    </div>
-                    <!-- /.icon_nav DIGITAL COMICS -->
-
-                    <div class="icon_nav">
-                        <div>
-                            <img src="../assets/img/merchandise.png" alt="Digital Comics">
-                        </div>
-                        <div>
-                            <span>DC MERCHANDISE</span>
+                            <span>{{ icon.title }}</span>
                         </div>
                     </div>
-                    <!-- /.icon_nav DC MERCHANDISE -->
-
-                    <div class="icon_nav">
-                        <div>
-                            <img src="../assets/img/subscriptions.png" alt="Digital Comics">
-                        </div>
-                        <div>
-                            <span>SUBSCRIPTION</span>
-                        </div>
-                    </div>
-                    <!-- /.icon_nav SUBSCRIPTION -->
-
-                    <div class="icon_nav">
-                        <div>
-                            <img src="../assets/img/shop-locator.png" alt="Digital Comics">
-                        </div>
-                        <div>
-                            <span>COMIC SHOP LOCATOR</span>
-                        </div>
-                    </div>
-                    <!-- /.icon_nav COMIC SHOP LOCATOR -->
-
-                    <div class="icon_nav">
-                        <div>
-                            <img width="100" src="../assets/img/visa.svg" alt="Digital Comics">
-                        </div>
-                        <div>
-                            <span>DC POWER VISA</span>
-                        </div>
-                    </div>
-                    <!-- /.icon_nav DC POWER VISA -->
-
                 </div>
             </div>
         </div>

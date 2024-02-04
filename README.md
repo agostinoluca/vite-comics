@@ -39,3 +39,12 @@ Ho necessità di un ripasso sul posizionamento e dimensionamento delle img vicin
 
 Ho necessità di aggiungere i puntini per arrivare al percorso img. Cosa sbaglio?
 Dove mettere le img? In src/assets/img o /public?
+Per la fascia azzurra non sono riuscito a riparare il percorso, neanche con il metodo consigliato in classe che riporto qui di seguito:
+// methods: {
+// /_ Only if image are placed inside /src/assets/ _/
+// getImageUrl(name) {
+// console.log(new URL(`../assets/img/${name}.png`, import.meta.url));
+// return new URL(`../assets/img/${name}.png`, import.meta.url).href
+// }
+// }
+Ho dovuto infine spostare le immagini nella cartella public per far funzionare dinamicamente il tutto.
