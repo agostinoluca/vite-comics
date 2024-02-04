@@ -1,9 +1,11 @@
 <script>
 import ComicsCard from "./ComicsCard.vue";
+import IconNav from "./IconNav.vue"
 export default {
     name: 'AppMain',
     components: {
-        ComicsCard
+        ComicsCard,
+        IconNav
     },
     data() {
         return {
@@ -135,12 +137,7 @@ export default {
             <div class="container p-3">
                 <div class="row">
                     <div class="icon_nav" v-for="icon in icons">
-                        <div>
-                            <img height="50" :src="icon.img" :alt="icon.alt">
-                        </div>
-                        <div>
-                            <span>{{ icon.title }}</span>
-                        </div>
+                        <IconNav :icon="icon"></IconNav>
                     </div>
                 </div>
             </div>
@@ -180,14 +177,6 @@ export default {
         gap: 0.5rem;
         margin: 1rem;
         cursor: pointer;
-    }
-
-    & span {
-        font-size: 0.75rem;
-    }
-
-    & img {
-        max-height: 4rem;
     }
 }
 </style>
