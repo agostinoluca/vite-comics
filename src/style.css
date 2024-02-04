@@ -107,6 +107,10 @@ a {
   padding: 1.5rem;
 }
 
+.pb-3 {
+  padding-bottom: 1.5rem;
+}
+
 .g-1 {
   gap: 0.5rem;
 }
@@ -119,4 +123,29 @@ a {
   gap: 2rem
 }
 
+.btn_primary {
+  background-color: var(--dc-primary);
+  padding: 0.25rem 1rem;
+  border: var(--dc-primary);
+  border-radius: 0.25rem;
+  color: var(--dc-light);
+  display: inline-flex;
+
+  &:active {
+    animation: click 0.5s linear;
+  }
+}
+
 /* #endregion Utility */
+
+@keyframes click {
+  0% {
+    transform: scale(0.90);
+    border: 1px solid white;
+  }
+
+  100% {
+    transform: scale(1);
+  }
+
+}

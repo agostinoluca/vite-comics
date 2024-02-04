@@ -122,12 +122,15 @@ export default {
             <div class="jumbotron">
 
             </div>
-            <div class="container p-3">
+            <div class="container pb-3">
                 <h3>CURRENT SERIES</h3>
                 <div class="row">
                     <div class="col-2" v-for="comic in comics">
                         <ComicsCard :comic="comic"></ComicsCard>
                     </div>
+                </div>
+                <div class="d-flex justify-content-center p-2">
+                    <button class="btn_primary">Load More</button>
                 </div>
             </div>
         </div>
@@ -158,10 +161,11 @@ export default {
     }
 
     & h3 {
-        display: inline-flex;
+        display: inline-block;
         color: var(--dc-light);
         background-color: var(--dc-primary);
-        padding: 1rem;
+        padding: 1rem 2rem;
+        margin: -2rem -0.5rem 1.5rem;
     }
 }
 
