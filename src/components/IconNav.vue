@@ -24,5 +24,7 @@ span {
 
 img {
     max-height: 4rem;
+    width: 2.5rem;
+    min-width: 1.5rem;
 }
 </style>
